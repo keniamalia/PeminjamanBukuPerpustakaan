@@ -22,27 +22,29 @@
             android:layout_gravity="center_horizontal"
             android:src="@drawable/hj" />
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Nama" />
-
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
         <EditText
             android:id="@+id/editTextNama"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="No Hp" />
 
-        <EditText
-            android:id="@+id/editTextAlamat"
+            android:hint="Nama"
+            android:textColor="@color/colorPrimary" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/editTextTelepon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="No Telepon/HP"
+            android:inputType="numberSigned"
+            android:textColor="@color/colorPrimary" />
+        </android.support.design.widget.TextInputLayout>
 
         <TextView
             android:id="@+id/textView3"
@@ -111,18 +113,29 @@
             android:id="@+id/textView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tanggal Pinjam" />
+            android:text="Lama Peminjaman" />
 
-        <CalendarView
-            android:id="@+id/calendarView"
+        <Spinner
+            android:id="@+id/spinner2"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/btnsubmit"
+            style="@style/TextAppearance.AppCompat.Title"
             android:layout_width="231dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="Submit" />
+            android:layout_weight="2.05"
+            android:background="@drawable/btnbg"
+            android:text="Submit"
+            android:textColor="@android:color/background_light" />
+
+        <TextView
+            android:id="@+id/textViewHasil"
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.08"
+            tools:text="Hasil" />
     </LinearLayout>
 </ScrollView>
