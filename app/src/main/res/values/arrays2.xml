@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tlp">
+        <item>+1</item>
+        <item>+3</item>
+        <item>+7</item>
+        <item>+20</item>
+        <item>+27</item>
+        <item>+30</item>
+        <item>+31</item>
+        <item>+32</item>
+        <item>+34</item>
+        <item>+36</item>
+        <item>+39</item>
+        <item>+40</item>
+        <item>+60</item>
+        <item>+60</item>
+        <item>+62</item>
+        <item>+94</item>
+        <item>+95</item>
+        <item>+98</item>
+    </string-array>
+</resources>
