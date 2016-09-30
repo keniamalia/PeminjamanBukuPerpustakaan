@@ -30,7 +30,6 @@
                 android:id="@+id/editTextNama"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
                 android:hint="Nama"
                 android:textColor="@color/colorPrimary" />
         </android.support.design.widget.TextInputLayout>
@@ -76,7 +75,8 @@
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Judul Buku" />
+            android:text="Judul Buku"
+            android:textColor="@color/colorAccent" />
 
         <Spinner
             android:id="@+id/spinnerBuku"
@@ -93,7 +93,8 @@
             android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-            android:text="Lama Pinjam" />
+            android:text="Lama Pinjam"
+            android:textColor="@color/colorAccent" />
 
         <RadioButton
             android:id="@+id/hr"
@@ -120,7 +121,8 @@
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Lainnya" />
+            android:text="Lainnya"
+            android:textColor="@color/colorAccent" />
 
         <CheckBox
             android:id="@+id/checkBox"
@@ -158,42 +160,49 @@
             android:id="@+id/textViewHasil"
             android:layout_width="352dp"
             android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
             tools:text="Hasil" />
 
         <TextView
             android:id="@+id/textViewHasil1"
             android:layout_width="354dp"
             android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
             tools:text="Hasil" />
 
         <TextView
             android:id="@+id/textViewHasil2"
             android:layout_width="354dp"
             android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
             tools:text="Hasil" />
 
         <TextView
             android:id="@+id/textViewHasil3"
             android:layout_width="352dp"
             android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
             tools:text="Hasil" />
 
         <TextView
             android:id="@+id/textViewHasil4"
             android:layout_width="353dp"
             android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
             tools:text="Hasil" />
 
         <TextView
             android:id="@+id/textViewHasil5"
             android:layout_width="258dp"
             android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
             tools:text="Hasil" />
 
         <TextView
             android:id="@+id/textViewHasil7"
             android:layout_width="279dp"
             android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
             tools:text="Hasil" />
 
     </LinearLayout>
