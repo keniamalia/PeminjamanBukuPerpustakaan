@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
             String tlp = etTelepon.getText().toString();
             tvHasil1.setText("\nNama: " + nama);
             tvHasil2.setText("\nNo Telepon: " + phone + " " + tlp);
-            }
+        }
         String hsl = "\nLainnya: ";
         int startlen = hsl.length();
         if (cbGl.isChecked()) hsl += cbGl.getText() + ", ";
@@ -139,6 +139,6 @@ public class MainActivity extends AppCompatActivity {
             tvHasil5.setText("\nLama Pinjam " + hasil);
         }
         return valid;
-        }
+    }
 
 }
