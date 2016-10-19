@@ -15,6 +15,7 @@ Aplikasi ini bernama Aplikasi Peminjaman Buku Perpustakaan. Dalam aplikasi ini t
 * no telepon
 * pilihan lama meminjam buku
 * dan pilihan barang yang ingin dipinjam lainnya
+
 Dalam aplikasi ini juga terdapat deteksi kesalahan untuk no telepon dan nama.
 
 ###Screenshoot
